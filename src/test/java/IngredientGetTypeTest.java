@@ -29,14 +29,11 @@ public class IngredientGetTypeTest {
 
     @Test
     public void getTypeReturnsRightType(){
-        Ingredient new_ingredient = ingredient;
+        Ingredient newIngredient = ingredient;
         IngredientType expectedType = type;
 
-        IngredientType actual = new_ingredient.getType();
+        IngredientType actual = newIngredient.getType();
 
         assertEquals(expectedType, actual);
-
     }
-
-
 }
